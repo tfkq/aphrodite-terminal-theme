@@ -51,7 +51,7 @@ fi
 PS1=''
 PS1+='\[$(tput setaf 7)\]$(echo -ne $__aphrodite_venv)\[$(tput sgr0)\]'
 PS1+='\[$(tput setaf 8)\]['
-PS1+='\[$(tput setaf 6)\]\u'
+PS1+='\[$(tput setaf 4)\]\u'
 PS1+='\[$(tput setaf 8)\]@'
 PS1+='\[$(tput setaf 12)\]\h'
 PS1+='\[$(tput setaf 8)\]]'
